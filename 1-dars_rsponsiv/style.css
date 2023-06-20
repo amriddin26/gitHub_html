@@ -1,10 +1,113 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
 }
-header{
+body{
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.902);
+}
+header{
+    width: 70%;
+    height: 160vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.navbar_div{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+}
+.card{
+    display: flex;
+    padding: 1px;
+}
+ img{
+    display: flex;
+}
+
+.card ul{
+    display: flex;
+    padding: 15px;
+    margin-left: 740px;
+}
+.card ul li{
+    display: flex;
+    margin-left: 20px;
+}
+.card a{
+    color: black;
+}
+details{
+    margin-left: 30px;
+}
+.card button{
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(219, 15, 15, 0.781);
+    border: 2px solid rgb(247, 5, 223);
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.block_div{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipMx68tJR6xOe5_jZX-i4wH1Z1cgXvr0DDET8q0Q=w1080-h608-p-no-v0);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-columns:  repeat(5, 250px);
+    grid-template-rows: repeat(4, 240px); 
+    display: grid;
+    column-gap: 0px;
+    row-gap: 15px;
+}
+.block_div p{
+    width: 80%;
+    margin: 0 auto;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 22px;
+   color: #fff;
+}
+.box_div h1{
+margin: 10px;
+color: white;
+font-size: 50px;
+text-align: center;
+}
+.box_div .lorem{
+    margin-top: 120px;
+}
+.box_div button{
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(219, 15, 15, 0.781);
+    border: 2px solid rgb(247, 5, 223);
+    margin-left: 580px;
+    border-radius: 20px;
+    margin-top: 40px;  
+}
+.box_div{
+    grid-column: 1/6;
+    grid-row: 1/3;
+}
+.box1{
+    grid-column: 2/3;
+    background-color: rgb(36, 24, 205);
+}
+.box2{
+    background-color: rgb(169, 31, 31);
+}
+.box3{
+    background-color: rgb(38, 205, 29);
 }
