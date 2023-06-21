@@ -74,7 +74,7 @@ details{
     margin: 0 auto;
    text-align: center;
    margin-top: 20px;
-   font-size: 22px;
+   font-size: 16px;
    color: #fff;
 }
 .box_div h1{
@@ -103,11 +103,98 @@ text-align: center;
 }
 .box1{
     grid-column: 2/3;
-    background-color: rgb(36, 24, 205);
+    grid-row: 3/4;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+.box1 i{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.box1 p{
+    color: black;
 }
 .box2{
-    background-color: rgb(169, 31, 31);
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: black;
+    text-align: center;
+    background-color: rgb(220, 229, 236);
+}
+.box2 i{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.box2 p{
+    color: black;
 }
 .box3{
-    background-color: rgb(38, 205, 29);
+    grid-column: 4/5;
+    grid-row: 3/4;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+.box3 i{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.box3 p{
+    color: black;
+}
+.futur{
+    width: 60%;
+    height: 72.5vh;
+    margin: 0 auto;
+    background-color: red;
+}
+.card_one{
+    width: 97%;
+    height: 330px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+}
+.card_block{
+    width: 97%;
+    height: 330px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+}
+.card_one .img_div{
+    width: 390px;
+    height: 330px;
+    background-image: url(https://daryo.uz/cache/2021/06/f03cdf392231c05cde4da19fbcd6ba87-800x1000.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_block .img_div{
+    width: 390px;
+    height: 330px;
+    background-image: url(https://img.freepik.com/premium-photo/two-young-girls-communicate-in-a-cafe-at-the-table_81534-658.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_one .tex{
+    width: 50%;
+    height: 330px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.card_block .tex{
+    width: 50%;
+    height: 330px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0);
 }
