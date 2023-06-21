@@ -11,7 +11,7 @@ body{
 }
 header{
     width: 70%;
-    height: 160vh;
+    height: 170vh;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -106,7 +106,7 @@ text-align: center;
     grid-row: 3/4;
     color: black;
     text-align: center;
-    background-color: white;
+    background-color: #fff9f9;
 }
 .box1 i{
     margin-top: 20px;
@@ -136,7 +136,7 @@ text-align: center;
     grid-row: 3/4;
     color: black;
     text-align: center;
-    background-color: white;
+    background-color: #fff9f9;
 }
 .box3 i{
     margin-top: 20px;
@@ -148,27 +148,31 @@ text-align: center;
 }
 .futur{
     width: 60%;
-    height: 72.5vh;
+    height: 82.5vh;
     margin: 0 auto;
-    background-color: red;
+}
+.futur h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 .card_one{
     width: 97%;
-    height: 330px;
+    height: 300px;
     margin: 0 auto;
     display: flex;
     background-color: #fff;
 }
 .card_block{
     width: 97%;
-    height: 330px;
+    height: 300px;
     margin: 0 auto;
     display: flex;
     background-color: #fff;
 }
 .card_one .img_div{
     width: 390px;
-    height: 330px;
+    height: 300px;
     background-image: url(https://daryo.uz/cache/2021/06/f03cdf392231c05cde4da19fbcd6ba87-800x1000.jpg);
     justify-content: center;
     background-size: cover;
@@ -177,7 +181,7 @@ text-align: center;
 }
 .card_block .img_div{
     width: 390px;
-    height: 330px;
+    height: 300px;
     background-image: url(https://img.freepik.com/premium-photo/two-young-girls-communicate-in-a-cafe-at-the-table_81534-658.jpg);
     justify-content: center;
     background-size: cover;
@@ -186,15 +190,47 @@ text-align: center;
 }
 .card_one .tex{
     width: 50%;
-    height: 330px;
+    height: 300px;
     margin: 0 auto;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0);
 }
 .card_block .tex{
     width: 50%;
-    height: 330px;
+    height: 300px;
     margin: 0 auto;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0);
+}
+.card_one .tex h1{
+    color: rgba(255, 0, 0, 0.8);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 33px;
+}
+.card_one .tex button{
+    width: 110px;
+    height: 37px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(219, 15, 15, 0.781);
+    border: 2px solid rgb(247, 5, 223);
+    border-radius: 20px;
+    margin-top: 40px;  
+}
+.card_block .tex h1{
+    color: rgba(255, 0, 0, 0.8);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 33px;
+}
+.card_block .tex button{
+    width: 110px;
+    height: 37px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(219, 15, 15, 0.781);
+    border: 2px solid rgb(247, 5, 223);
+    border-radius: 20px;
+    margin-top: 40px;  
 }
