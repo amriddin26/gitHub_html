@@ -1,0 +1,17 @@
+@media(max-width:1656px){
+    .card ul{
+       margin-left: 470px;
+    }
+.container{
+    width: 1140px;
+}
+header{
+    width: 1629px;
+    width: 68.7%;
+    margin: 0 auto;
+}
+body{
+    width: 1656px;
+    margin-left:-200px ;
+}
+}
