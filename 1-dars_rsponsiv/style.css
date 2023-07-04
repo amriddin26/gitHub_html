@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.902);
+    background: rgba(0, 0, 0, 0.902);
 }
 header{
     width: 70%;
@@ -89,16 +89,16 @@ text-align: center;
 .box_div button{
     width: 110px;
     height: 40px;
-    padding: 10px;
+    padding-bottom: 2px;
     color: #fff;
     background-color: rgba(219, 15, 15, 0.781);
     border: 2px solid rgb(247, 5, 223);
-    margin-left: 580px;
+    margin-left: 300px;
     border-radius: 20px;
-    margin-top: 40px;  
+    margin-top: 40px;
 }
 .box_div{
-    grid-column: 1/6;
+    grid-column: 2/5;
     grid-row: 1/3;
 }
 .box1{
@@ -147,7 +147,7 @@ text-align: center;
     color: black;
 }
 .futur{
-    width: 60%;
+    width: 80%;
     height: 82.5vh;
     margin: 0 auto;
 }
@@ -189,34 +189,34 @@ text-align: center;
     background-position: center;
 }
 .card_one .tex{
-    width: 50%;
+    width: 60%;
     height: 300px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0);
 }
 .card_block .tex{
-    width: 50%;
+    width: 60%;
     height: 300px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0);
 }
 .card_one .tex h1{
     color: rgba(255, 0, 0, 0.8);
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 33px;
 }
 .card_one .tex button{
     width: 110px;
     height: 37px;
-    padding: 10px;
+    padding-bottom: 5px;
     color: #fff;
     background-color: rgba(219, 15, 15, 0.781);
     border: 2px solid rgb(247, 5, 223);
     border-radius: 20px;
-    margin-top: 40px;  
+    margin-top: 10px;  
 }
 .card_block .tex h1{
     color: rgba(255, 0, 0, 0.8);
@@ -227,7 +227,7 @@ text-align: center;
 .card_block .tex button{
     width: 110px;
     height: 37px;
-    padding: 10px;
+    padding-bottom: 5px;
     color: #fff;
     background-color: rgba(219, 15, 15, 0.781);
     border: 2px solid rgb(247, 5, 223);

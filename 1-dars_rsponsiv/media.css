@@ -1,4 +1,4 @@
-@media(max-width:1656px){
+@media(max-width:992px){
     .card ul{
        margin-left: 470px;
     }
@@ -14,4 +14,146 @@ body{
     width: 1656px;
     margin-left:-200px ;
 }
+.block_div{
+    grid-template-columns:  repeat(5, 200px);
+    grid-template-rows: repeat(4, 238px); 
+    display: grid;
+    column-gap: 0px;
+    row-gap: 15px;
+    padding-top: 70px;
+}
+.box_div button{
+    width: 100px;
+    height: 30px;
+    padding-bottom: 2px;
+    color: #fff;
+    background-color: rgba(219, 15, 15, 0.781);
+    border: 2px solid rgb(247, 5, 223);
+    margin-left: 260px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.box1 p{
+font-size: 11px;
+}
+.box2 p{
+    font-size: 11px
+}
+.box3 p{
+    font-size: 11px;
+}
+.tex p{
+    font-size: 12px;
+}
+}
+@media(max-width:770px){
+    .block_div{
+        grid-template-columns:  repeat(5, 150px);
+        grid-template-rows: repeat(4, 238px); 
+        display: grid;
+        column-gap: 0px;
+        row-gap: 15px;
+        padding-top: 70px;
+    }
+    .box_div button{
+        width: 100px;
+        height: 30px;
+        padding-bottom: 2px;
+        color: #fff;
+        background-color: rgba(219, 15, 15, 0.781);
+        border: 2px solid rgb(247, 5, 223);
+        margin-left: 180px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .tex{
+        width: 350px;
+        font-size: 11px;
+    }
+}
+@media(max-width:768px){
+    .card_one .tex p{
+        width: 150%;
+        font-size: 10px;
+    }
+    .card_block .tex p{
+        width: 110%;
+        font-size: 10px;
+    }
+    .card_block .tex button{
+        margin-top: 0px;
+    }
+}
+@media(max-width:576px){
+    .block_div{
+        grid-template-columns:  repeat(5, 150px);
+        grid-template-rows: repeat(6, 138px); 
+        display: grid;
+        column-gap: 0px;
+        row-gap: 15px;
+        padding-top: 70px;
+    }
+    .box1{
+        grid-column: 1/-1;
+        grid-row: 6/8;
+    }
+  
+      .box2{
+        grid-column: 1/-1;
+        grid-row: 8/11;
+    }
+    .box3{
+        grid-column: 1/-1;
+        grid-row: 11/15;
+    }
+    .futur{
+        display: block;
+        margin-top: 500px;
+    }
+    .card_one{
+        width: 100%;
+        display: block;
+    }
+   .card_one .img_div{
+        width: 100%;
+        height: 34vh;
+    }
+    .card_one .tex{
+       width: 100%;
+    }
+    .card_one .tex p{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card_one .tex button{
+        margin-left: 250px;
+        margin-bottom: 50px;
+    }
+    .card_block{
+        margin-top: 190px;
+    }
+    .card_block .tex p{
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .card_block .tex button{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+}
+@media(max-width:1325px){
+    .block_div{
+        height: 88vh;
+    }
+    header{
+        height: 185vh;
+    }
+    body{
+        width: 1325px;
+        padding: 30px;
+        background-color: #000;
+        margin-left:-300px ;
+    }
 }
