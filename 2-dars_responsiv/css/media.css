@@ -1,0 +1,28 @@
+@media(max-width:1699px){
+    .menu .card1{
+        margin-left: 100px;
+    }
+    .menu .card2{
+        margin-left: 100px;
+    }
+    .menu .card3{
+        margin-left: 100px;
+    }
+}
+@media(max-width:768px){
+    .menu .card1{
+        width: 100%;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    .menu .card2{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .menu .card3{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

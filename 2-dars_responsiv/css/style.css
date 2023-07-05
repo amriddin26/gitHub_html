@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/34/18/46/cafe-coffee-day.jpg);
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu .text{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+.menu .text button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 2px solid rgb(129, 7, 76);
+    border-radius: 10px;
+    background-color: red;
+}
+.menu .card1{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 174px;
+    text-align: center;
+    margin-left: 430px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #fff;
+    transition: 0.25s;
+}
+.menu .card1:hover{
+    color: #fff;
+    background-color: rgb(196, 194, 194);
+}
+.menu .card2{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 174px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgb(196, 194, 194);
+    transition: 0.25s;
+}
+.menu .card2:hover{
+    color: white;
+}
+.menu .card3{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin-top: 174px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #fff;
+    transition: 0.25s;
+}
+.menu .card3:hover{
+    color: #fff;
+    background-color: rgb(196, 194, 194);
+}
+.menu i{
+    font-size: 60px;
+    margin: 20px;
+}
