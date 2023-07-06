@@ -74,3 +74,31 @@
     font-size: 60px;
     margin: 20px;
 }
+.futur{
+    display: block;
+    background-color: rgba(70, 68, 68, 0.508);
+}
+.img_div{
+    display: flex;
+}
+.futur h1{
+    padding: 40px;
+}
+.img_div .tex{
+    padding: 50px;
+}
+.img_div .tex button{
+    width: 110px;
+    height: 35px;
+    color: white;
+    border: 2px solid rgb(129, 7, 76);
+    border-radius: 15px;
+    background-color: red;
+}
+.cord_block{
+    display: flex;
+}
+.img_col{
+    display: flex;
+    margin-top: 30px;
+}
