@@ -76,7 +76,7 @@
 }
 .futur{
     display: block;
-    background-color: rgba(70, 68, 68, 0.508);
+    background-color: rgba(70, 68, 68, 0.375);
 }
 .img_div{
     display: flex;
@@ -101,4 +101,15 @@
 .img_col{
     display: flex;
     margin-top: 30px;
+}
+.img_col .text{
+    padding: 40px;
+}
+.img_col .text button{
+    width: 110px;
+    height: 35px;
+    color: white;
+    border: 2px solid rgb(129, 7, 76);
+    border-radius: 15px;
+    background-color: red;
 }

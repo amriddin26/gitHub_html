@@ -31,7 +31,7 @@
         margin-left: 60px;
     }
 }
-@media(max-width:1240px){
+@media(max-width:1238px){
     .futur h1{
         padding-top: 400px;
     }
@@ -43,6 +43,14 @@
     .img_div img{
         width: 600px;
         height: 300px;
+    }
+    .img_col img{
+        width: 600px;
+        height: 300px;
+    }
+    .img_col .text{
+        margin-top: -350px;
+        padding-top: 0px;
     }
 }
 @media(max-width:1260){
@@ -75,10 +83,21 @@
         width: 550px;
         height: 400px;
     }
+    .img_col .text{
+        width: 40%;
+        padding: 5px;
+        margin-left: -10px;
+    }
 }
 @media(max-width:900px){
     .img_div .tex{
         padding-left: 20px;
+    }
+}
+@media(max-width:885px){
+    .img_col img{
+        width: 500px;
+        height: 450px;
     }
 }
 @media(max-width:825px){
@@ -109,5 +128,33 @@
     .img_div .tex{
         margin-top: -660px;
         padding-top: 0px;
+    }
+    .img_col{
+        display: block;
+       margin-bottom: 200px;
+    }
+    .img_col img{
+        width: 100%;
+        display: none;
+    }
+    .img_div_col{
+        width: 100%;
+        height: 500px;
+        background-image: url(https://img.freepik.com/premium-photo/hot-coffee-cup-table-relax-time-morning-time_41969-1428.jpg);
+        justify-content: center;
+        background-size: cover;
+        margin-top: -50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 160px;
+    }
+    .img_col .text{
+        width: 80%;
+        margin-top: -1200px;
+        text-align: center;
+        margin-left: 40px;
+        text-shadow: 2px 3px 3px azure;         
+        color: aliceblue;
+        z-index: 2;
     }
 }
